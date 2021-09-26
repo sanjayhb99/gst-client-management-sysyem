@@ -1,0 +1,73 @@
+<html>
+<head>
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+   
+    background-image: url("i13.jpg");
+
+  
+    height: 100%; 
+
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+
+<body bgcolor="cream">
+<div class="bg">
+<h2 style="text"; align="center" ;><font color="red"> PURCHASE DETAILS</font> </h2>
+<form method="post" action="purchase.php">
+<font color="orange">
+<p>
+ENTER GSTIN:<input type="text" name="gstin" value="" > 
+<p>
+<p>
+ENTER GSTIN(purchased from) :<input type="text" name="pgstin" value="" > 
+<p>
+<p>
+ENTER BILL NO:<input type="text" name="billno" value="" > 
+<p>
+<p>
+ENTER PRODUCT NAME :<input type="text" name="product_name" value="" >
+</p>
+<p>
+ENTER QUANTITY :<input type="number" name="quantity" value="" >
+</p>
+<p>
+ENTER MONTH :<select name="month">
+			<option value="jan">jan</option>
+			<option value="feb">feb</option>
+			<option value="mar">mar</option>
+			<option value="apr">apr</option>
+			<option value="may">may</option>
+			<option value="jun">jun</option>
+			<option value="jul">jul</option>
+			<option value="aug">aug</option>
+			<option value="sep">sep</option>
+			<option value="oct">oct</option>
+			<option value="nov">nov</option>
+			<option value="dec">dec</option>
+		
+			
+</p>
+
+<p>
+
+
+
+
+<input type="submit" name="submit"> <br>
+</font>
+</form>
+
+</div>
+</body>
+</html>
